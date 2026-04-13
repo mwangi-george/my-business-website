@@ -21,13 +21,13 @@ export function HeroSection() {
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-              <Button size="lg">
+              <Button size="lg" className={"h-12"}>
                 <a href={ctaLinks.primary.href} className={"flex items-center gap-2"}>
                   <PrimaryIcon className="h-4 w-4" />
                   {ctaLinks.primary.label}
                 </a>
               </Button>
-              <Button size="lg" variant="outline">
+              <Button size="lg" variant="outline" className={"h-12"}>
                 <a href={ctaLinks.secondary.href} className={"flex items-center gap-2"}>
                   {ctaLinks.secondary.label}
                   <SecondaryIcon className="h-4 w-4" />
