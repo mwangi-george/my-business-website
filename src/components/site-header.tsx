@@ -59,7 +59,7 @@ export function SiteHeader({ navigationItems, activeSection }: SiteHeaderProps) 
         </span>
 
           <div className="flex items-center gap-2">
-            <Button className="hidden md:inline-flex">
+            <Button className="hidden md:inline-flex" size={"lg"}>
               <a href="#contact">Book a call</a>
             </Button>
 
