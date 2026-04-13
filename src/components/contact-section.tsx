@@ -11,7 +11,7 @@ export function ContactSection() {
       title="Let’s talk about your data, workflows, and systems"
       description="If you're looking to improve your data, streamline workflows, or build scalable systems, I’d love to hear from you. Use the form below or connect with me directly—let’s discuss how I can support your work."
     >
-      <div className="mx-1 md:mx-32">
+      <div className="mx-1 md:mx-52">
         <Card className="p-8 md:p-10">
           <form className="space-y-5">
             <div className="grid gap-5 sm:grid-cols-2">
