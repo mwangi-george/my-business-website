@@ -77,31 +77,31 @@ export const services = [
 
 export const approachSteps = [
   {
-    number: "01",
+    number: "1",
     title: "Understand",
     description:
-      "Map the current spreadsheets, pain points, workflows, and decision-making needs before building anything.",
+      "Map the current pain points, and decision-making needs.",
     icon: Layers3,
   },
   {
-    number: "02",
+    number: "2",
     title: "Design",
     description:
-      "Define the data model, key automations, system architecture, user flows, and reporting outputs for the right-fit solution.",
+      "Design data models, automations, and simple interfaces.",
     icon: GitBranch,
   },
   {
-    number: "03",
+    number: "3",
     title: "Build & validate",
     description:
-      "Develop modular components, test with realistic data, and refine the workflow until it saves time and reduces friction.",
+      "Develop modular components and test with realistic data.",
     icon: Settings2,
   },
   {
-    number: "04",
+    number: "4",
     title: "Deploy & support",
     description:
-      "Launch the solution, train users, gather feedback, and iterate so the system remains useful beyond the first release.",
+      "Launch solution, train users, gather feedback, and iterate.",
     icon: ShieldCheck,
   },
 ] as const;
