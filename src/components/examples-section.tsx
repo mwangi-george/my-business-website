@@ -1,8 +1,9 @@
-import { ArrowUpRight, BarChart3, Github } from "lucide-react";
+import { ArrowUpRight, BarChart3 } from "lucide-react";
 import { SectionShell } from "@/components/section-shell";
 import { Badge } from "@/components/ui/badge";
 import { exampleProjects } from "@/data/site-content";
 import { cn } from "@/lib/utils";
+import {FaGithub} from "react-icons/fa";
 
 export function ExamplesSection() {
   return (
@@ -61,7 +62,7 @@ export function ExamplesSection() {
                   </p>
                 </div>
 
-                {(project.sourceCodeLink || project.dashboardLink) && (
+                {(project.sourceCodeLink) && (
                     <div className="mt-5 flex flex-wrap gap-3">
                       {project.sourceCodeLink && (
                           <a
@@ -70,7 +71,7 @@ export function ExamplesSection() {
                               rel="noopener noreferrer"
                               className="inline-flex items-center gap-2 rounded-full border border-border bg-background/80 px-4 py-2 text-sm font-medium text-foreground transition-all duration-300 hover:border-primary/30 hover:text-primary"
                           >
-                            <Github className="h-4 w-4" />
+                            <FaGithub className="h-4 w-4" />
                             Source code
                             <ArrowUpRight className="h-4 w-4" />
                           </a>
