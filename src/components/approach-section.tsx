@@ -8,7 +8,7 @@ export function ApproachSection() {
       id="approach"
       eyebrow="Approach"
       title="A clear path from problem to production"
-      description="The process is lightweight, collaborative, and grounded in the realities of your operations, timelines, and data quality."
+      description="A straightforward process focused on understanding your needs and delivering practical solutions"
       className="bg-white/25"
     >
       <div className="grid gap-6 lg:grid-cols-4">
@@ -16,21 +16,21 @@ export function ApproachSection() {
           const Icon = step.icon;
 
           return (
-            <Card key={step.number} className="relative overflow-hidden">
-              <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-primary via-teal-400 to-sky-300" />
-              <CardHeader>
-                <div className="flex items-center justify-between">
+            <div key={step.number} className="relative overflow-hidden">
+              <CardHeader className="items-center justify-center">
+                <div className="items-center justify-center flex">
                   <div className="grid h-14 w-14 place-items-center rounded-full bg-primary text-lg font-bold text-primary-foreground shadow-soft">
                     {step.number}
                   </div>
-                  <Icon className="h-6 w-6 text-primary/70" />
                 </div>
-                <CardTitle className="pt-4 text-2xl">{step.title}</CardTitle>
+                <div className="items-center justify-center flex">
+                  <CardTitle className="pt-4 text-2xl justify-center items-center">{step.title}</CardTitle>
+                </div>
               </CardHeader>
-              <CardContent>
+              <div className="items-center justify-center flex">
                 <p className="leading-7 text-muted-foreground">{step.description}</p>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
           );
         })}
       </div>
