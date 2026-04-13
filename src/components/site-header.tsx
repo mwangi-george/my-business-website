@@ -2,7 +2,6 @@ import { BriefcaseBusiness, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import SocialLinks from "@/components/social-links";
-import {useIsMobile} from "@/hooks/use-mobile";
 
 interface NavigationItem {
   label: string;
@@ -15,7 +14,7 @@ interface SiteHeaderProps {
 }
 
 export function SiteHeader({ navigationItems, activeSection }: SiteHeaderProps) {
-  const isMobile = useIsMobile()
+
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-xl">
       <div className="container flex h-20 items-center justify-between gap-4">
@@ -45,8 +44,7 @@ export function SiteHeader({ navigationItems, activeSection }: SiteHeaderProps) 
             );
           })}
         </nav>
-        {!isMobile && (<SocialLinks/>)}
-
+        <span className={"hidden md:block"}> <SocialLinks /></span>
         <div className="flex items-center gap-2">
           <Button className="hidden md:inline-flex">
             <a href="#contact">Book a call</a>

@@ -1,9 +1,10 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {cn} from "@/lib/utils";
 
-const SocialLinks = () => {
+const SocialLinks = ({className}: {className?: string}) => {
     return (
-        <div className=" flex items-center justify-center gap-4">
+        <div className={cn("flex items-center justify-center gap-4", className)}>
             <a
                 href="https://github.com/mwangi-george"
                 target="_blank"
