@@ -27,7 +27,7 @@ export function ApproachSection() {
                   <CardTitle className="pt-4 text-2xl justify-center items-center">{step.title}</CardTitle>
                 </div>
               </CardHeader>
-              <div className="items-center justify-center flex">
+              <div className="items-center justify-center flex mx-3 md:mx-10 text-center">
                 <p className="leading-7 text-muted-foreground">{step.description}</p>
               </div>
             </div>
