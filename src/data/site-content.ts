@@ -113,41 +113,51 @@ export const exampleProjects = [
         "Designed and built an application powered by the AirLabs Nearby API to help users quickly locate the nearest departure airport or discover airports within a defined radius.",
     tags: ["APIs", "R", "Shiny", "Geospatial"],
     impact: "Simplified travel planning by enabling fast, location-based airport discovery through an intuitive interface.",
+    sourceCodeLink: "https://github.com/mwangi-george/airports-and-cities-finder",
+    dashboardLink: "https://gmwangi.shinyapps.io/AirLabsNearByAPI/"
   },
-  {
-    title: "Meeting registration & reimbursement workflow system",
-    summary:
-      "Built a digital registration and reimbursement workflow that replaced manual, paper-based coordination and reduced duplicate participant data.",
-    tags: ["Workflow", "Internal tools", "FastAPI"],
-    impact: "Faster coordination and finance turnaround with less manual work.",
-  },
-  {
-    title: "Family planning commodity forecasting tool",
-    summary:
-      "Created a machine-learning-enabled demand forecasting tool integrated with DHIS2 to extract data, manage outliers, and generate planning outputs in minutes.",
-    tags: ["Machine learning", "DHIS2", "Forecasting"],
-    impact: "Improved accuracy over Excel-based methods while shrinking turnaround time.",
-  },
+  // {
+  //   title: "Meeting registration & reimbursement workflow system",
+  //   summary:
+  //     "Built a digital registration and reimbursement workflow that replaced manual, paper-based coordination and reduced duplicate participant data.",
+  //   tags: ["Workflow", "Internal tools", "FastAPI"],
+  //   impact: "Faster coordination and finance turnaround with less manual work.",
+  //   sourceCodeLink: "",
+  //   dashboardLink: ""
+  // },
+  // {
+  //   title: "Family planning commodity forecasting tool",
+  //   summary:
+  //       "Created a machine-learning-enabled demand forecasting tool integrated with DHIS2 to extract data, manage outliers, and generate planning outputs in minutes.",
+  //   tags: ["Machine learning", "DHIS2", "Forecasting"],
+  //   impact: "Improved accuracy over Excel-based methods while shrinking turnaround time.",
+  // },
   {
     title: "Sales Analytics dashboard",
     summary:
       "Developed an interactive analytics dashboard used to compare performance across multiple locations and operational indicators.",
     tags: ["Dashboards", "Visualization", "Analytics", "Business Intelligence"],
-    impact: "Improved visibility into regional performance trends.",
+    impact: "Improved visibility into regional performance trends using a custom user friendly dashboard",
+    sourceCodeLink: "https://github.com/mwangi-george/sales-analytics-shiny-app",
+    dashboardLink: "https://gmwangi.shinyapps.io/DairySalesAnalysisV1/"
   },
   {
     title: "Time series forecasting workbench",
     summary:
       "Built an application that lets users upload datasets, define forecast horizons, and generate predictive insights with multiple forecasting methods.",
-    tags: ["Time series", "Self-service analytics", "Planning"],
+    tags: ["Time Series", "Machine Learning", "Demand Planning",],
     impact: "Made forecasting workflows more accessible for non-technical users.",
+    sourceCodeLink: "",
+    dashboardLink: "https://g-mwangi.shinyapps.io/Shinyapp-Showcase/"
   },
   {
     title: "Constitution of Kenya AI assistant",
     summary:
         "Built a Gen AI assistant that enables users to query the Constitution of Kenya (2010) and receive precise, context-grounded answers with verifiable citations through a modern chat interface.",
     tags: ["Pydantic AI", "RAG", "FastAPI", "React"],
-    impact: "Made legal reference faster and more accessible with citation-backed answers and real-time interaction.",
+    impact: "Made legal reference faster and more accessible with real-time interaction.",
+    sourceCodeLink: "https://github.com/mwangi-george/kenya-constitution-ai-agent",
+    dashboardLink: ""
   },
 ] as const;
 
