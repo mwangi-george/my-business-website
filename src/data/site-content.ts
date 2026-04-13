@@ -141,14 +141,23 @@ export const exampleProjects = [
     sourceCodeLink: "https://github.com/mwangi-george/sales-analytics-shiny-app",
     dashboardLink: "https://gmwangi.shinyapps.io/DairySalesAnalysisV1/"
   },
+  // {
+  //   title: "Time series forecasting workbench",
+  //   summary:
+  //     "Built an application that lets users upload datasets, define forecast horizons, and generate predictive insights with multiple forecasting methods.",
+  //   tags: ["Time Series", "Machine Learning", "Demand Planning",],
+  //   impact: "Made forecasting workflows more accessible for non-technical users.",
+  //   sourceCodeLink: "",
+  //   dashboardLink: "https://g-mwangi.shinyapps.io/Shinyapp-Showcase/"
+  // },
   {
-    title: "Time series forecasting workbench",
+    title: "KNESP – Kenya national elections simulation platform (in development)",
     summary:
-      "Built an application that lets users upload datasets, define forecast horizons, and generate predictive insights with multiple forecasting methods.",
-    tags: ["Time Series", "Machine Learning", "Demand Planning",],
-    impact: "Made forecasting workflows more accessible for non-technical users.",
-    sourceCodeLink: "",
-    dashboardLink: "https://g-mwangi.shinyapps.io/Shinyapp-Showcase/"
+        "Designing and building a full-scale backend system that simulates a national election end-to-end—from voter registration and candidate management to ballot generation, vote casting, tallying, and result aggregation.",
+    tags: ["System design", "FastAPI", "PostgreSQL", "Domain modeling"],
+    impact: "Demonstrates production-grade system architecture with complex business rules, auditability, and real-world data modeling across the full election lifecycle.",
+    sourceCodeLink: "https://github.com/mwangi-george/knesp",
+    dashboardLink: "",
   },
   {
     title: "Constitution of Kenya AI assistant",
