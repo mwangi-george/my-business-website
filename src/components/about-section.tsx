@@ -5,7 +5,7 @@ export function AboutSection() {
   return (
       <SectionShell
           id="about"
-          eyebrow="About"
+          eyebrow=""
           title="Technical depth with a practical, systems-driven mindset"
           description=""
           className="bg-white/25"

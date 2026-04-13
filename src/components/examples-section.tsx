@@ -7,7 +7,7 @@ export function ExamplesSection() {
   return (
     <SectionShell
       id="examples"
-      eyebrow="Examples"
+      eyebrow=""
       title="Real-world solutions I've delivered"
       description="Here are some examples of solutions I’ve designed and built to solve real-world data and operational challenges."
     >

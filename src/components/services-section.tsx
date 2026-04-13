@@ -6,7 +6,7 @@ export function ServicesSection() {
   return (
     <SectionShell
       id="services"
-      eyebrow="Services"
+      eyebrow=""
       title="What I can help you build"
       description="From dashboards to backend systems and forecasting workflows, the focus is always practical value, maintainability, and measurable time savings."
     >

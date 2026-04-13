@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteHeader navigationItems={navigationItems} activeSection={activeSection} />
-      <main>
+      <main className={""}>
         <HeroSection />
         <ServicesSection />
         <ApproachSection />

@@ -6,7 +6,7 @@ export function ApproachSection() {
   return (
     <SectionShell
       id="approach"
-      eyebrow="Approach"
+      eyebrow=""
       title="A clear path from problem to production"
       description="A straightforward process focused on understanding your needs and delivering practical solutions"
       className="bg-white/25"

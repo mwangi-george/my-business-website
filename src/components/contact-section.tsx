@@ -7,11 +7,11 @@ export function ContactSection() {
   return (
     <SectionShell
       id="contact"
-      eyebrow="Contact"
+      eyebrow=""
       title="Let’s talk about your data, workflows, and systems"
       description="If you're looking to improve your data, streamline workflows, or build scalable systems, I’d love to hear from you. Use the form below or connect with me directly—let’s discuss how I can support your work."
     >
-      <div className="mx-1 md:mx-20">
+      <div className="mx-1 md:mx-32">
         <Card className="p-8 md:p-10">
           <form className="space-y-5">
             <div className="grid gap-5 sm:grid-cols-2">
@@ -46,8 +46,8 @@ export function ContactSection() {
                 placeholder="Describe your current systems, reporting needs, and what kind of outcome you want."
               />
             </label>
-            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-              <Button type="submit">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center justify-end">
+              <Button type="submit" size="lg" className="h-11 rounded-2xl">
                 <Send className="h-4 w-4" />
                 Send message
               </Button>
