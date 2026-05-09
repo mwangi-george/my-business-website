@@ -26,10 +26,11 @@ export function SiteHeader({ navigationItems, activeSection }: SiteHeaderProps) 
               href="#top"
               className="flex items-center gap-3 font-semibold text-foreground transition-transform hover:scale-[1.01]"
           >
-          <span className="grid h-11 w-11 place-items-center rounded-2xl bg-primary text-primary-foreground shadow-soft">
-            <BriefcaseBusiness className="h-5 w-5" />
+          <span className="grid h-11 w-11 place-items-center rounded-2xl text-primary-foreground shadow-soft">
+            {/*<BriefcaseBusiness className="h-5 w-5" />*/}
+            <img alt={"George"} src={"cover_image.jpeg"} className={"rounded-full"}/>
           </span>
-            <span className="text-lg md:text-xl">Data Systems Consulting</span>
+            <span className="text-lg md:text-xl">George Mwangi</span>
           </a>
 
           {/* Desktop Nav */}

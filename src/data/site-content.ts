@@ -184,6 +184,6 @@ export const socialLinks = [
 
 export const ctaLinks = {
   primary: { label: "Book a consultation", href: "#contact", icon: CalendarCheck2 },
-  secondary: { label: "Explore services", href: "#services", icon: ArrowRight },
+  secondary: { label: "See What I can Build", href: "#services", icon: ArrowRight },
   tertiary: { label: "See project examples", href: "#examples", icon: Activity },
 };

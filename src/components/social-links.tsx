@@ -16,7 +16,7 @@ const SocialLinks = ({className}: {className?: string}) => {
             </a>
 
             <a
-                href="https://linkedin.com/in/mwangi-george"
+                href="https://linkedin.com/in/george-mwangi-0ba801407"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 rounded-full border border-slate-200 bg-white/80 px-4 py-2 text-sm text-slate-700 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-sky-300 hover:text-sky-700 hover:shadow-md"
