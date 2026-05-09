@@ -36,8 +36,8 @@ export function AboutSection() {
 
             <div className="flex flex-wrap justify-center gap-2">
               {[
-                "Python", "R", "SQL", "TypeScript",
-                "FastAPI", "React", "Shiny",
+                "Python", "R", "SQL", "Excel", "Google Sheets",
+                "TypeScript", "FastAPI", "React", "Shiny",
                 "Pydantic", "Pydantic AI", "Polars", "Tidyverse",
                 "Plotly", "Highcharts", "ApexCharts", "ggplot2",
                 "ShadCN", "TanStack Query", "TailwindCSS", "Quarto"
