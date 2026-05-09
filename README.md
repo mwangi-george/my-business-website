@@ -1,4 +1,4 @@
-# Data Systems Consulting Website
+# George Mwangi Website
 
 A modular React + TypeScript + Vite + Tailwind project for launching my consulting website.
 
