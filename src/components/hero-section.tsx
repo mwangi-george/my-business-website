@@ -13,7 +13,7 @@ export function HeroSection() {
         <div className="grid items-center gap-14 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <h1 className="max-w-3xl text-balance text-5xl font-bold tracking-tight text-foreground md:text-6xl">
-              Turn messy data workflows into modern, scalable systems.
+              From messy spreadsheets to scalable systems.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground md:text-xl">
               Hi, my name is George Mwangi. I help organizations move from scattered spreadsheets and manual processes to dependable dashboards,
